@@ -13,7 +13,7 @@ API_URL=https://myapi.com
 FABRIC_ID=abcdefgh
 ```
 
-load all environment varibles in `main.dart`
+load all environment variables in `main.dart`
 
 ```dart
 import 'package:flutter_config/flutter_config.dart';
@@ -26,7 +26,7 @@ void main() async {
 }
 ```
 
-Now you can access your environment varibles anywhere in your app.
+Now you can access your environment variables anywhere in your app.
 
 ```dart
 import 'package:flutter_config/flutter_config.dart';
@@ -38,7 +38,7 @@ Keep in mind this module doesn't obfuscate or encrypt secrets for packaging, so 
 
 <br/>
 
-### Load Environment Varibles in Swift
+### Load Environment Variables in Swift
 
 First import the plugin
 ```Swift
